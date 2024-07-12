@@ -1,0 +1,174 @@
+:root {
+  --first-color: #d20062;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* default styles */
+h2 {
+  font-weight: 900;
+}
+
+h2 + h6 {
+  color: var(--first-color);
+}
+
+button.same-btn {
+  background-color: var(--first-color);
+  color: white;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button.same-btn:hover {
+  background-color: #fd3794;
+  color: white;
+}
+
+/* Navbar start */
+nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1;
+}
+nav a.logo {
+  font-size: 30px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+nav form {
+  border: 2px solid #d20062;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+nav form button.search-btn {
+  color: white;
+  border-radius: 25px;
+  background-color: var(--first-color);
+  font-weight: 700;
+}
+
+nav input.search-input {
+  border-radius: 25px;
+}
+
+nav input.search-input:focus {
+  outline: none !important;
+}
+
+nav div.nav-list li {
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* Navbar end */
+
+/* Home section start */
+#home {
+  height: 90.5vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(210, 0, 98, 0.1),
+      rgba(210, 0, 98, 0.5)
+    ),
+    url("./images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#home .col-12 {
+  transform: translateY(-30%);
+  z-index: 0;
+}
+/* Home section end */
+
+.noh img {
+  width: 100%;
+  height: 250px;
+  /* border: 2px solid red; */
+}
+
+.noh .card {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border-radius: 5px;
+}
+
+.noh h5 {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+/* Trending section start */
+#trending {
+  border: 2px solid transparent;
+  margin-top: 100px;
+}
+
+#trendi ng h6 {
+  color: var(--first-color);
+}
+
+#trending .card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#trending .card:hover p {
+  color: var(--first-color);
+  opacity: 0.8;
+}
+
+#trending .card img {
+  background-color: #f7f7f7;
+}
+
+#trending div.star i {
+  color: var(--first-color);
+}
+/* Trending section end */
+
+/* store section start */
+#store img {
+  background-color: #f7f7f7;
+}
+
+#store i {
+  color: var(--first-color);
+}
+
+#store .card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#store .card:hover p {
+  color: var(--first-color);
+  opacity: 0.8;
+}
+/* store section end */
+
+.good-nutrition {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/good\ nutrition.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.good-nutrition h2 {
+  font-family: "Cedarville Cursive", cursive;
+}
+
+/* news section start */
+
+/* news section ends */
